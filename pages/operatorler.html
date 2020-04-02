@@ -1,0 +1,117 @@
+<html>
+
+<head>
+    <title>Ödeve Hoþ Geldiniz :)</title>
+    <link rel="stylesheet" href="../css/odevcss.css" />
+
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="../index.html">Ana Sayfa</a></li>
+
+        <li>
+            <a href="">JS</a>
+
+
+            <ul class="jsacilirmenu">
+
+                <li><a href="jsgiris.html">JavaScript Giriþ</a></li>
+                <li><a href="syntaxyapi.html">JavaScript Yazýlým (Syntax) yapýsý</a></li>
+                <li><a href="degiskenler.html">Deðiþkenler</a></li>
+                <li><a href="operatorler.html">Operatörler</a></li>
+                <li><a href="aritmetik.html">Aritmetik</a></li>
+                <li><a href="veritipleri.html">Veri Tipleri</a></li>
+                <li><a href="fonkyap.html">Fonksiyon Yapýsý</a></li>
+                <li><a href="olaylar.html">Olaylar (Events)</a></li>
+                <li><a href="ssdzi.html">Stringler, Sayýlar, Diziler ve Dizi Ýþlemleri</a></li>
+                <li><a href="ifyap.html">If koþul yapýlarý</a></li>
+                <li><a href="donguler.html">Döngüler</a></li>
+                <li><a href="tipdon.html">Tip Dönüþümleri</a></li>
+                <li><a href="cygm.html">Çalýþma yapýsý ve genel mimarisi</a></li>
+
+            </ul>
+
+    </ul>
+
+    <div style="margin-left:25%;padding:1px 16px;height:1000px;">
+
+        <h2 class="girisbaslik">Operatörler</h2>
+
+        <h2>Matematiksel operatörler</h2>
+
+        <textarea class="matoptextarea">
+var a = 5 + 6;	// toplama operatörü
+var b = 5 - 6;	// çýkarma operatörü
+var c = 5*6;	// çarpma operatörü
+var d = 5/6;	// bölme operatörü
+var e = 5%6;	// mod alma operatörü
+var f = ++a;	// önden 1 arttýrma operatörü, a'nýn deðerini 1 arttýrýr, sonra bu deðeri f'ye atar.
+var g = a++;	// sondan 1 arttýrma operatörü a'yý g'ye atar, sonra a'nýn deðerini 1 arttýrýr.
+var h = --a;	// önden 1 eksiltme operatörü a'nýn deðerini 1 eksiltilir, sonra bu deðeri h'ye atar.
+var i = a--;	// sondan 1 eksiltme operatörü a'yý i'ye atar, sonra a'nýn deðerini 1 eksiltir.
+
+</textarea>
+
+        <h2>Atama operatörleri</h2>
+
+        <textarea class="matoptextarea">
+
+var a;
+a = 0;	// normal atama
+a += 6;	// toplayarak atama. a = a+6'ya denk.
+a -= 6;	// çýkararak atama. a = a-6'ya denk.
+a *= 6;	// çarparak atama. a = a*6'ya denk.
+a /= 6;	// bölerek atama. a = a/6'ya denk.
+a %= 6;	// mod alarak atama. a = a%6'ya denk.
+
+</textarea>
+
+        <h2>String operatörleri</h2>
+
+        <textarea class="stringtextarea">
+
+var s="metin1 "+"metin2";
+
+</textarea>
+
+
+        <h2>Karþýlaþtýrma operatörleri</h2>
+
+        <textarea class="matoptextarea">
+var a = 5, b = "5";
+var c = a == b;	// a ile b'nin deðerleri eþit mi? burada c'ye true deðeri atanýr.
+c = a === b;	// a ile b'nin deðerleri ve türleri ayný mý? c'nin deðeri false olur.
+c = a != b;	// a ile b eþit deðil mi?
+c = a > b;	// a, b'den büyük mü?
+c = a < b;	// a, b'den küçük mü?
+c = a >= b;	// a, b'den büyük veya b'ye eþit mi?
+c = a <= b;	// a, b'den küçük veya b'ye eþit mi?
+
+</textarea>
+
+
+        <h2>Mantýksal operatörler</h2>
+
+        <textarea class="matoptextarea">
+
+var a = true, b = false;
+var c = a&&b;	// a ve b'nin ikisi de true ise true, aksi hâlde false üretir.
+c = a||b;	// a ve b'nin en az birisi true ise true, aksi hâlde false üretir.
+c =!a;		// a'nýn deðeri true ise false, false ise true üretir.
+
+</textarea>
+
+        <h2>Koþul operatörü</h2>
+
+        <textarea class="matoptextarea">
+var a = true;
+var c = a ? "a true" : "a false";
+
+</textarea>
+        </div>
+
+</body>
+
+
+</html>

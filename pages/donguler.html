@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <title>Ödeve Hoþ Geldiniz :)</title>
+    <link rel="stylesheet" href="../css/odevcss.css" />
+
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="../index.html">Ana Sayfa</a></li>
+
+        <li>
+            <a href="">JS</a>
+
+
+            <ul class="jsacilirmenu">
+
+                <li><a href="jsgiris.html">JavaScript Giriþ</a></li>
+                <li><a href="syntaxyapi.html">JavaScript Yazýlým (Syntax) yapýsý</a></li>
+                <li><a href="degiskenler.html">Deðiþkenler</a></li>
+                <li><a href="operatorler.html">Operatörler</a></li>
+                <li><a href="aritmetik.html">Aritmetik</a></li>
+                <li><a href="veritipleri.html">Veri Tipleri</a></li>
+                <li><a href="fonkyap.html">Fonksiyon Yapýsý</a></li>
+                <li><a href="olaylar.html">Olaylar (Events)</a></li>
+                <li><a href="ssdzi.html">Stringler, Sayýlar, Diziler ve Dizi Ýþlemleri</a></li>
+                <li><a href="ifyap.html">If koþul yapýlarý</a></li>
+                <li><a href="donguler.html">Döngüler</a></li>
+                <li><a href="tipdon.html">Tip Dönüþümleri</a></li>
+                <li><a href="cygm.html">Çalýþma yapýsý ve genel mimarisi</a></li>
+
+            </ul>
+
+    </ul>
+
+    <div style="margin-left:25%;padding:1px 16px;height:1000px;">
+
+        <h2 class="girisbaslik">JavaScript Döngüler</h2>
+        <p>Bir komut bloðunu birden çok kez çalýþtýrmak için kullanýlýrlar. Örneðin; ekranýmýza 1'den 100'e kadar sayý yazdýrmak istiyoruz. Bunun için yüz kere document.write(n) ifadesini yazmayýz. Burada devreye döngüler girer.</p>
+        <h3>For Döngüsü</h3>
+        <h4>Örnek:</h4>
+        <textarea class="fortext">
+<script>
+    var kullaniciSayisi = prompt("1'den 100'e kadar bir sayý giriniz. Ben bu sayýyý 100'e kadar yazdýracaðým.", "");
+    for (var i = kullaniciSayisi; i < 100; i++) {
+        document.write(i + "<br>");
+    }
+</script>   
+</textarea>
+        <h3>While Döngüsü</h3>
+        <h4>Örnek:</h4>
+        <textarea class="fortext">
+<script>
+    var kullaniciSayisi = prompt("1'den 100'e kadar bir sayý giriniz. Ben bu sayýyý 100'e kadar yazdýracaðým.", "");
+    var i = kullaniciSayisi;
+    while (i < 100) {
+        document.write(i + "<br>");
+        i++;
+    }
+</script>   
+</textarea>
+
+        <h3>do ... while Döngüsü</h3>
+        <h4>Örnek:</h4>
+        <textarea class="fortext">
+<script>
+    var kullaniciSayisi = prompt("1'den 100'e kadar bir sayý giriniz. Ben bu sayýyý 100'e kadar yazdýracaðým.", "");
+    var i = kullaniciSayisi;
+    do {
+        document.write(i + "<br>");
+        i++;
+    } while (i < 100);
+</script>  
+</textarea>
+    </div>
+</body>
+
+
+</html>

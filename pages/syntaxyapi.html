@@ -1,0 +1,176 @@
+<html>
+
+<head>
+    <title>Ödeve Hoþ Geldiniz :)</title>
+    <link rel="stylesheet" href="../css/odevcss.css" />
+
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="../index.html">Ana Sayfa</a></li>
+
+        <li>
+            <a href="">JS</a>
+
+
+            <ul class="jsacilirmenu">
+
+                <li><a href="jsgiris.html">JavaScript Giriþ</a></li>
+                <li><a href="syntaxyapi.html">JavaScript Yazýlým (Syntax) yapýsý</a></li>
+                <li><a href="degiskenler.html">Deðiþkenler</a></li>
+                <li><a href="operatorler.html">Operatörler</a></li>
+                <li><a href="aritmetik.html">Aritmetik</a></li>
+                <li><a href="veritipleri.html">Veri Tipleri</a></li>
+                <li><a href="fonkyap.html">Fonksiyon Yapýsý</a></li>
+                <li><a href="olaylar.html">Olaylar (Events)</a></li>
+                <li><a href="ssdzi.html">Stringler, Sayýlar, Diziler ve Dizi Ýþlemleri</a></li>
+                <li><a href="ifyap.html">If koþul yapýlarý</a></li>
+                <li><a href="donguler.html">Döngüler</a></li>
+                <li><a href="tipdon.html">Tip Dönüþümleri</a></li>
+                <li><a href="cygm.html">Çalýþma yapýsý ve genel mimarisi</a></li>
+
+            </ul>
+
+    </ul>
+
+    <div style="margin-left:25%;padding:1px 16px;height:1000px;">
+
+        <h2 class="girisbaslik">JavaScript Yazýlým (Syntax) yapýsý </h2>
+        <h2>Yazým kurallarý</h2>
+        <ol type="1">
+            <li>
+                Javascriptte bütün deðiþkenler Harf yada (_) altçizgi ile baþlar. Rakam ile baþlayamaz.
+            </li>
+            <li>
+                Deðiþken isimleri 255 karakter uzunluðundan fazla olamaz.
+            </li>
+            <li>
+                Javascript’te büyük küçük harf duyarlýlýðý vardýr. Deger isimli deðiþeken ile deger isimli deðiþken farklý algýlanýr.
+            </li>
+            <li>
+                Türkçe karakter kullanýlamaz.(ý,þ,ð,ü,ö,ç)
+            </li>
+            <li>
+                Deðiþkenler var ifadesiyle tanýmlanýr.
+            </li>
+            <li>
+                Sabit bir deðiþkeni const SABÝT_DEGER þeklinde tanýmlamalýsýnýz. Const yazýmý yanlýþtýr.(madde 3).
+            </li>
+            <li>
+                Ýfade tanýmlarýnda anahtar kelimeler kullanýlamaz. (if, for, while vs.)
+            </li>
+            <li>
+                Açýlan süslü parantezlerin kapatýlmasý gerekmektedir. ( { } )
+            </li>
+            <li> Javascriptte ‘(tek týrnak) ile “(çift týrnak) iþareti arasýnda iþlevsel bakýmdan fark yoktur. Ancak iç içe kullanýmda birbiriyle çakýþmamasýna özen gösterilmelidir.</li>
+        </ol>
+        <h2>Rezerv Edilmiþ Kelimeler</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td>abstract</td>
+                    <td>arguments</td>
+                    <td>await*</td>
+                    <td>boolean</td>
+                </tr>
+                <tr>
+                    <td>break</td>
+                    <td>byte</td>
+                    <td>case</td>
+                    <td>catch</td>
+                </tr>
+                <tr>
+                    <td>char</td>
+                    <td>class*</td>
+                    <td>const</td>
+                    <td>continue</td>
+                </tr>
+                <tr>
+                    <td>debugger</td>
+                    <td>default</td>
+                    <td>delete</td>
+                    <td>do</td>
+                </tr>
+                <tr>
+                    <td>double</td>
+                    <td>else</td>
+                    <td>enum*</td>
+                    <td>eval</td>
+                </tr>
+                <tr>
+                    <td>export*</td>
+                    <td>extends*</td>
+                    <td>false</td>
+                    <td>final</td>
+                </tr>
+                <tr>
+                    <td>finally</td>
+                    <td>float</td>
+                    <td>for</td>
+                    <td>function</td>
+                </tr>
+                <tr>
+                    <td>goto</td>
+                    <td>if</td>
+                    <td>implements</td>
+                    <td>import*</td>
+                </tr>
+                <tr>
+                    <td>in</td>
+                    <td>instanceof</td>
+                    <td>int</td>
+                    <td>interface</td>
+                </tr>
+                <tr>
+                    <td>let*</td>
+                    <td>long</td>
+                    <td>native</td>
+                    <td>new</td>
+                </tr>
+                <tr>
+                    <td>null</td>
+                    <td>package</td>
+                    <td>private</td>
+                    <td>protected</td>
+                </tr>
+                <tr>
+                    <td>public</td>
+                    <td>return</td>
+                    <td>short</td>
+                    <td>static</td>
+                </tr>
+                <tr>
+                    <td>super*</td>
+                    <td>switch</td>
+                    <td>synchronized</td>
+                    <td>this</td>
+                </tr>
+                <tr>
+                    <td>throw</td>
+                    <td>throws</td>
+                    <td>transient</td>
+                    <td>true</td>
+                </tr>
+                <tr>
+                    <td>try</td>
+                    <td>typeof</td>
+                    <td>var</td>
+                    <td>void</td>
+                </tr>
+                <tr>
+                    <td>volatile</td>
+                    <td>while</td>
+                    <td>with</td>
+                    <td>yield</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="isaretli">* iþaretliler ECMAScript 6 ile yeni eklenenlerdir</p>
+
+
+    </div>
+</body>
+
+
+</html>

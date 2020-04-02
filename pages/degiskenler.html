@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <title>Ödeve Hoþ Geldiniz :)</title>
+    <link rel="stylesheet" href="../css/odevcss.css" />
+
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="../index.html">Ana Sayfa</a></li>
+
+        <li>
+            <a href="">JS</a>
+
+
+            <ul class="jsacilirmenu">
+
+                <li><a href="jsgiris.html">JavaScript Giriþ</a></li>
+                <li><a href="syntaxyapi.html">JavaScript Yazýlým (Syntax) yapýsý</a></li>
+                <li><a href="degiskenler.html">Deðiþkenler</a></li>
+                <li><a href="operatorler.html">Operatörler</a></li>
+                <li><a href="aritmetik.html">Aritmetik</a></li>
+                <li><a href="veritipleri.html">Veri Tipleri</a></li>
+                <li><a href="fonkyap.html">Fonksiyon Yapýsý</a></li>
+                <li><a href="olaylar.html">Olaylar (Events)</a></li>
+                <li><a href="ssdzi.html">Stringler, Sayýlar, Diziler ve Dizi Ýþlemleri</a></li>
+                <li><a href="ifyap.html">If koþul yapýlarý</a></li>
+                <li><a href="donguler.html">Döngüler</a></li>
+                <li><a href="tipdon.html">Tip Dönüþümleri</a></li>
+                <li><a href="cygm.html">Çalýþma yapýsý ve genel mimarisi</a></li>
+
+            </ul>
+
+    </ul>
+
+    <div style="margin-left:25%;padding:1px 16px;height:1000px;">
+
+        <h2 class="girisbaslik">Deðiþkenler</h2>
+
+        <h2>Deðiþkenler</h2>
+        <p>Variables, deðiþkenler, herhangi deðeri saklayabileceðiniz ve ismini kendimizin belirlediði bir nevi veri depolarýdýr. Bir deðiþkeni tanýmlamaya var, let anahtar kelimesi kullanarak baþlanýlýr, ardýndan da deðiþkenin ismi yazýlýr.</p>
+        <textarea class="degiskenler">
+        var ismim = 'Can';   
+</textarea>
+
+        <h2>Nesne Deðerleri</h2>
+        <p>
+            Bir nesne deðiþkeni, süslü parantezlerle { } çevrili sýfýr veya daha fazla özellik ismi ve bu özellikler ile iliþkili deðerleri içeren bir listeden oluþur. Bir kod satýrýnýn baþlangýcýnda deðiþken ismi olmadan sadece süslü parantezler ile baþlayarak bir nesne oluþturmamanýz gerekmektedir. Eðer oluþturursanýz, JavaScript nesne baþlangýcýndaki { karakterini, bir kod bloðuna baþlangýç yapýlýyormuþ gibi yorumlar ve bunun sonucunda ya bir hata mesajý alýrsýnýz, yada yazdýðýnýz kod beklendiði gibi çalýþmaz.
+        </p>
+        <p>
+            Aþaðýda, nesne deðerini içeren bir örnek bulunmaktadýr. otoGaleri nesnesinin ilk elemaný, “Fiat” deðerini barýndýran arabam isminde bir özelliði tanýmlamaktadýr; ikinci elemaný arabaAl özelliðidir ve function (araçTipleri("Honda")) fonksiyonu çalýþtýrýldýktan hemen sonra fonksiyonun sonucunu içerir; üçüncü eleman sporArabaAl özelliðidir, halihazýrda varolan hayalimdekiAraba deðiþkenini kullanýr.
+        </p>
+        <h4>Örnek:</h4>
+        <textarea class="nesnedegertext">
+var hayalimdekiAraba = "Bugatti";  
+  
+function araçTipleri(markaAdý) {  
+  if (markaAdý == "Wolksvagen") {  
+    return markaAdý;  
+  } else {  
+    return "Üzgünüz, malesef " + markaAdý + " marka araba elimizde bulunmamaktadýr.";  
+  }  
+}  
+  
+var otoGaleri = {   
+    arabam: "Fiat",   
+    arabaAl: arabaTipleri("Wolksvagen"),   
+    sporArabaAl: arabaTipleri(hayalimdekiAraba)  
+};  
+  
+console.log(otoGaleri.arabam);   // Fiat  
+console.log(otoGaleri.arabaAl);  // Wolksvagen  
+console.log(otoGaleri.sporArabaAl); // Üzgünüz, malesef Bugatti marka araba elimizde bulunmamaktadýr.  
+</textarea>
+
+    </div>
+</body>
+
+
+</html>

@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <title>Ödeve Hoþ Geldiniz :)</title>
+    <link rel="stylesheet" href="../css/odevcss.css" />
+
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="../index.html">Ana Sayfa</a></li>
+
+        <li>
+            <a href="">JS</a>
+
+
+            <ul class="jsacilirmenu">
+
+                <li><a href="jsgiris.html">JavaScript Giriþ</a></li>
+                <li><a href="syntaxyapi.html">JavaScript Yazýlým (Syntax) yapýsý</a></li>
+                <li><a href="degiskenler.html">Deðiþkenler</a></li>
+                <li><a href="operatorler.html">Operatörler</a></li>
+                <li><a href="aritmetik.html">Aritmetik</a></li>
+                <li><a href="veritipleri.html">Veri Tipleri</a></li>
+                <li><a href="fonkyap.html">Fonksiyon Yapýsý</a></li>
+                <li><a href="olaylar.html">Olaylar (Events)</a></li>
+                <li><a href="ssdzi.html">Stringler, Sayýlar, Diziler ve Dizi Ýþlemleri</a></li>
+                <li><a href="ifyap.html">If koþul yapýlarý</a></li>
+                <li><a href="donguler.html">Döngüler</a></li>
+                <li><a href="tipdon.html">Tip Dönüþümleri</a></li>
+                <li><a href="cygm.html">Çalýþma yapýsý ve genel mimarisi</a></li>
+
+            </ul>
+
+    </ul>
+
+    <div style="margin-left:25%;padding:1px 16px;height:1000px;">
+
+        <h2 class="girisbaslik">Javascript Veri Türleri</h2>
+
+        <h2>Veri Türü Nedir? </h2>
+
+        <p>
+            Ýnsanlardan farklý olarak bilgisayarlar, 1234 ve abcd arasýndaki farký anlayamazlar. Yani hangisi sayý, hangisi metin bunu ayýrt edemezler.
+        </p>
+        <p>
+            Veri türü, deðiþkenler içinde saklanacak verinin türüne göre sýnýflandýrýlmasýdýr. Veri türleri her programla dili için oldukça önemli bir kavramdýr.
+        </p>
+        <p>
+            Bir uygulama geliþtirirken deðiþken içinde saklanan verinin türünü önceden belirtiriz. Böylece bilgisayar verinin saklanacaðý bellek alanýný buna göre ayýrýr.
+        </p>
+
+        <p>JavaScript deðiþkenleri çok farklý veri türlerini tutabilir. JavaScript programlama dilinde baþlýca veri türleri sayý (number), metin(string) ve nesne (object) türleridir.</p>
+        <h4>Örnek:</h4>
+        <textarea class="veritext">
+            var agirlik = 25; // sayý
+            var websitesi = "fcsecer.site"; // string
+            var kisi = {ad: "ali", soyad:"veli"}; // nesne
+        </textarea>
+
+        <h2>Veri Türü Kavramý</h2>
+        <pre>
+Veri türü programlamada önemli bir kavramdýr. Sadece JavaScript'e özel bir ifade deðildir.
+
+Bir deðiþken üzerinde iþlem yaparken onun veri türünü bilmemiz gerekir.
+
+Veri türleri olmadan aþaðýdaki gibi iþlemleri bilgisayar çözemez:
+</pre>
+        <textarea class="veritext2">
+        var sonuc = 20 + "araba";
+        </textarea>
+        <pre>
+Yukarýdaki iþlem mantýklý bir iþlem deðildir. Matematik derslerinde hocalarýn dediði gibi elma ile armutu toplayamazsýnýz.
+
+Yukarýdaki iþlem hata vermez fakat bir toplama iþlemi gerçekleþmez, string birleþtirme iþlemi gerçekleþir ve sonuç þu þekilde görüntülenir: 20araba
+
+Fakat aþaðýdaki iþlem, yukarýdaki iþleme göre daha farklýdýr:
+        </pre>
+        <textarea class="veritext2">
+        var sonuc = "20" + "araba";
+</textarea>
+        <pre>
+Bunun sebebi 20 sayýsý "20" þeklinde týrnak içinde yazýldýðýnda bilgisayar bunu artýk string olarak kabul eder.
+
+Bir string ile sayýnýn toplanmasýnýn sonucu string deðer doðurur:
+</pre>
+        <textarea class="veritext2">
+        var x = 20 + "araba";
+</textarea>
+    </div>
+</body>
+
+
+</html>

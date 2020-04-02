@@ -1,0 +1,150 @@
+body {
+    background-color: #F7F7F7;
+    margin:0;
+}
+.anasayfayazi{
+    margin-top:250px;
+    margin-left:100px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+    li a.active {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    li a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+    }
+
+.jsacilirmenu {
+    overflow: hidden;
+    max-height: 0;
+    -webkit-transition: all 0.5s ease-out;
+}
+
+    .jsacilirmenu a {
+        background-color: #f1f1f1;
+    }
+
+        .jsacilirmenu a:hover {
+            background-color: #f1f1f1;
+        }
+
+li:hover .jsacilirmenu {
+    display: block;
+    max-height: 470px;
+}
+
+.girisbaslik{
+    text-align:center;
+}
+#giris {
+    margin-top:60px;
+}
+.kodtext{
+    width:600px;
+    height:200px;
+}
+table {
+    background-color:#f7f7f7;
+    margin-left:20px;
+}
+.isaretli{
+    font-size:20px;
+}
+.degiskenler{
+    width:250px;
+    height:30px;
+}
+.nesnedegertext{
+    width:750px;
+    height:300px;
+}
+.matoptextarea {
+    width: 800px;
+    height: 200px;
+}
+.stringtextarea{
+    width:300px;
+    height:50px;
+}
+.aritmatiktablo {
+    border: 1px solid #ccc;
+    border-collapse: separate;
+    border-spacing: 2;
+    display:table;
+    border-color:grey;
+   margin-left:350px;
+   margin-top:100px;
+}
+.olaylartablo {
+    border: 1px solid #ccc;
+    border-collapse: separate;
+    border-spacing: 2;
+    display: table;
+    border-color: grey;
+    
+}
+.tabloaciklama{
+    padding-left:65px;
+}
+.veritext{
+    width:500px;
+    height:50px;
+}
+.veritext2 {
+    width:300px;
+}
+.fonktext{
+    width:400px;
+    height:75px;
+}
+.olayaciklama {
+    padding-left: 265px;
+}
+.sayitext{
+    width:400px;
+    height:50px;
+}
+.dizitext{
+    width:400px;
+}
+.stringtext{
+    width:300px;
+    height:100px;
+}
+.iftext{
+    width:750px;
+    height:150px;
+}
+.fortext{
+    width:830px;
+    height:150px;
+}
+.stringdontext{
+    width:500px;
+    height:100px;
+}
+.numtext{
+    width:800px;
+    height:300px;
+}

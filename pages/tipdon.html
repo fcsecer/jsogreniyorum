@@ -1,0 +1,114 @@
+<html>
+
+<head>
+    <title>Ödeve Hoþ Geldiniz :)</title>
+    <link rel="stylesheet" href="../css/odevcss.css" />
+
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="../index.html">Ana Sayfa</a></li>
+
+        <li>
+            <a href="">JS</a>
+
+
+            <ul class="jsacilirmenu">
+
+                <li><a href="jsgiris.html">JavaScript Giriþ</a></li>
+                <li><a href="syntaxyapi.html">JavaScript Yazýlým (Syntax) yapýsý</a></li>
+                <li><a href="degiskenler.html">Deðiþkenler</a></li>
+                <li><a href="operatorler.html">Operatörler</a></li>
+                <li><a href="aritmetik.html">Aritmetik</a></li>
+                <li><a href="veritipleri.html">Veri Tipleri</a></li>
+                <li><a href="fonkyap.html">Fonksiyon Yapýsý</a></li>
+                <li><a href="olaylar.html">Olaylar (Events)</a></li>
+                <li><a href="ssdzi.html">Stringler, Sayýlar, Diziler ve Dizi Ýþlemleri</a></li>
+                <li><a href="ifyap.html">If koþul yapýlarý</a></li>
+                <li><a href="donguler.html">Döngüler</a></li>
+                <li><a href="tipdon.html">Tip Dönüþümleri</a></li>
+                <li><a href="cygm.html">Çalýþma yapýsý ve genel mimarisi</a></li>
+
+            </ul>
+
+    </ul>
+
+    <div style="margin-left:25%;padding:1px 16px;height:1000px;">
+
+        <h2 class="girisbaslik">JavaScript Tip Dönüþümleri</h2>
+        <p>JavaScript ile bir deðiþken tipten baðýmsýz olarak tanýmlanýr. Fakat deðer atamasý yapýlýrken deðerin türüne göre deðiþkenin tipi dinamik olarak belirlenir. Bu  durum javascript dilinin deðiþken ile veri arasýnda gevþek bir baða sahip olduðu anlamýna gelir. Ýlk deðer atamasý yaparken, elle giriyorsak bu sorun oluþturmayacaktýr. Ancak deðer bir fonksiyon, json yada farklý bir nesneden geliyorsa bunu kontrol edip ona göre iþlemden geçirmek büyük önem oluþturur.</p>
+
+        <p>Bu açýklamadan sonra javascript  tür dönüþümünü saðlamak için aþaðýdaki fonksiyonlarý kullanarak istediðimiz türlerde dönüþüm saðlayabiliriz.</p>
+        <h3>String Türüne Dönüþtürme</h3>
+        <p>Bir deðeri string türüne dönüþtürmek için aþaðýdaki iki fonksiyondan birini kullanabiliriz.</p>
+        <li>deger.toString()</li>
+        <li>String(deger)</li>
+        <h4>Örnek:</h4>
+        <textarea class="stringdontext">
+var  sayi=125;              // typeof deger  -> number
+var metin=sayi.toString();  // typeof metin --> string
+ 
+var durum=false;
+var metin2 =String(durum);
+</textarea>
+        <h3>Sayý Türüne Dönüþtürme</h3>
+        <pre>Aþaðýdaki metodlar ile sayý türüne dönüþtürebiliriz. En sýk kullanýlan dönüþüm fonksiyonlarýndan biridir. json, input yada prompt nesnelerinden okunan deðerler string türünde olduðu için sayýsal iþlem yapýlacaksa aþaðýdaki fonksiyonlar ile dönüþüm yapýlmasý gerekiyor.
+
+Not: Tür dönüþümü sýrasýnda sayýsal deðere dönüþtürülmeyen deðerler için NaN özel sembolik deðeri oluþturulur.
+
+Örn: “10A” deðeri sayýsal deðere dönüþtürülmek istendiðinde NaN özel deðeri oluþturulacaktýr.</pre>
+
+        <ol type="1">
+            <li>Number(deger)</li>
+            <li>parseInt(deger)</li>
+            <li>parseFloat(deger)</li>
+        </ol>
+
+        <h4>Örn: iki kenarý girilen dikdörtgenin çevresini hesaplama</h4>
+
+        <textarea class="numtext">
+<input type="text" id="kenar1" placeholder="Kýsa kenar">
+
+
+
+<input type="text" id="kenar2" placeholder="Uzun kenar">
+
+
+
+<input type="button" value="Hesapla" id="hesapla">
+
+
+
+<script>
+
+    function hesapla() {
+
+        var k1 = document.getElementById("kenar1").value;
+        var k2 = document.getElementById("kenar2").value;
+
+        k1 = Number(k1);
+        k2 = Number(k2);
+        var cevre = (k1 + k2) * 2;
+        alert("Ýki kenarý girilen dikdörtgenin çevresi:" + cevre);
+
+    }
+
+
+    //hesaplama yapmasý için hesap butonunu seçiyoruz.
+    var hesapBtn = document.getElementById("hesapla");
+
+    //fonksiyonu olaya baðlýyoruz.
+    hesapBtn.onclick = hesapla;
+
+
+</script>
+</textarea>
+
+    </div>
+
+
+</body>
+
+
+</html>
