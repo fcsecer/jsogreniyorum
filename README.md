@@ -1,2 +1,2 @@
 # jsogreniyorum
-![](Odev - Imgur.mp4)
+![](outputs/Odev - Imgur.mp4)
