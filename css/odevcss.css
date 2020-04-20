@@ -51,7 +51,7 @@ li a {
 
 li:hover .jsacilirmenu {
     display: block;
-    max-height: 470px;
+    max-height: 600px;
 }
 
 .girisbaslik{
@@ -147,4 +147,42 @@ table {
 .numtext{
     width:800px;
     height:300px;
+}
+.jsfonktext {
+    height:180px;
+    width:500px;
+}
+.jsfonktext2{
+    height:130px;
+    width:350px;
+}
+.jsnesnetext{
+    height:200px;
+    width:200px;
+    margin-left:84px;
+}
+.jsdomresim{
+    padding-top:25px;
+}
+.jsdomtext{
+    width:500px;
+    height:300px;
+}
+#anasayfa_buton{
+    padding-top:30px;
+    padding-left:100px;
+}
+.buton_adam_asmaca{
+    margin-left:20px;
+}
+.buton_form_sayfasi {
+    margin-left: 20px;
+}
+#butonform{
+    margin-left:110px;
+}
+.harf, .bharf {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 4px;
 }

@@ -39,24 +39,32 @@
 
     <div style="margin-left:25%;padding:1px 16px;height:1000px;">
 
-        <h2 class="girisbaslik">Burasý Fonksiyon Yapýsý Sayfasý</h2>
-        <h4>Örnek:</h4>
-        <textarea class="iftext"><script>
-                                     var tuttugumSayi = 7;
-                                     var kullaniciSayisi = prompt("Aklýmdan 1'den 10'a kadar hangi sayýyý tutuyorum, bil bakalým.", "");
-                                     if (tuttugumSayi == kullaniciSayisi) {
-                                         alert("Tebrikler doðru tahmin! =)");
-                                     } else {
-                                         alert("Üzgünüm. Tuttuðum sayý 7'di.");
-                                     }
-</script></textarea>
-        <p>tuttugumSayi adýnda bir deðiþken tanýmladým ve deðerini "7" verdim. Kodlarýmý çalýþtýrdýðýmda aþaðýdaki gibi bir pencere açýlacak ve kullanýcýya sorumu soracaðým. Kullanýcýný vereceði cevap kullaniciSayisi adlý deðiþkenimin deðeri olacak. Eðer tuttugumSayi ile kullanýcýnýn gireceði sayý birbirine eþitse if kýsmýndaki, deðilse else kýsmýndaki kodlar çalýþacak.</p>
+        <h2 class="girisbaslik">JavaScript Object ( Nesne) Modeli ve Kullanýmý</h2>
+        <pre>
+            JavaScript’te nesne oluþturmak için { } süslü parantezler kullanýlýr.
+
+            var arac={ };
+
+            var ogrenci={ };
+
+            Yukarýdaki þekilde bir tanýmlama yapýldýðýnda içinde hiçbir þey bulunmayan arac ve ogrenci nesneleri oluþturulmuþ olur.
+
+            Þimdi de oluþturulan nesnelere özellik atamasýnýn nasýl yapýlacaðýna bakalým.
+        </pre>
+
+        <textarea class="jsnesnetext">
+var arac={
+    marka:"Renault",
+    model:"Clio",
+    yil:2018,
+    renk:"Beyaz",
+    yakit:"Dizel",
+    saatUcreti:60
+};
+
+</textarea>
 
     </div>
-
-
-
-
 </body>
 
 
